@@ -1,0 +1,98 @@
+.perfil-missfortune{
+
+    box-sizing: border-box;
+    width: 350px;
+    height: 500px;
+    border: 2px solid #FA433B;
+
+}
+.sobreMissFortune{
+    display: none;
+}
+.familia_missfortune{
+    box-sizing: border-box;
+    width: 282px;
+    height: 282px;
+    border-radius: 100%;
+    border: 2px solid #FA433B;
+
+
+}
+
+.description__title_missfortune{
+    width: 298px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FA433B;
+    
+}
+
+@media (max-width:640px)  {
+
+    .foto{
+        width: 597px;
+        margin-left: 5px;
+        display: block;
+        justify-content: center;
+    }
+    .sobre-Ahri{
+        display: none;
+    }
+    .sobreMissFortune{
+        display: flex;
+        margin-left: -490px;
+        position: absolute;
+        z-index: 999;
+        box-sizing: border-box;
+        height: 279px;
+        bottom: 273px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        justify-content: center;
+
+    }
+    .perfil-missfortune{
+        display: none;
+    }
+    .perfil{
+        display: flex;
+        margin-top: -190px;
+        box-sizing: border-box;
+        width: 600px;
+        
+    
+    }
+    .kiko{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 110px;
+        gap: 1px;
+    
+    }
+    .familia_missfortune{
+        box-sizing: border-box;
+        width: 282px;
+        height: 282px;
+        margin-bottom: 169px;
+        border-radius: 100%;
+    }
+    .description-kiko{
+        margin-top: -120px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .frase{
+        display: flex;
+        height: 140px;
+        width: 600px;
+    }
+
+}
